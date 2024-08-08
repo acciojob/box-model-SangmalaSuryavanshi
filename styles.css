@@ -1,45 +1,28 @@
 /*  your css code here. If applicable */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-}
+
 
 .container {
-    width: 400px; /* Specific width for the container */
-    height: 400px; /* Height should match the width to maintain proportion */
-    border: 5px solid #333; /* Rounded border */
-    border-radius: 20px; /* Rounded corners for the container */
-    display: flex;
-    justify-content: space-around; /* Adjust positioning of circles */
-    align-items: center;
-    background-color: #fff; /* Background color for the container */
-    position: relative;
+    width: 500px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: auto;
 }
 
-.circle {
-    width: 100px; /* Specific size for the circles */
-    height: 100px; /* Height should match the width to maintain proportion */
-    border-radius: 50%; /* Make the divs circular */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff; /* Text color */
-    font-size: 24px; /* Text size */
-    font-weight: bold; /* Text weight */
+.red, .green, .yellow {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
-.circle1 {
-    background-color: red; /* Color for the first circle */
+.red {
+    background-color: red;
 }
 
-.circle2 {
-    background-color: green ; /* Color for the second circle */
+.green {
+    background-color: green;
 }
 
-.circle3 {
-    background-color: yellow; /* Color for the third circle */
+.yellow {
+    background-color: yellow;
 }
