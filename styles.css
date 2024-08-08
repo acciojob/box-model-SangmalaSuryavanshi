@@ -33,13 +33,13 @@ body {
 }
 
 .circle1 {
-    background-color: green;
+    background-color: red;
 }
 
 .circle2 {
-    background-color: yellow;
+    background-color: green;
 }
 
 .circle3 {
-    background-color: red;
+    background-color: yellow;
 }
